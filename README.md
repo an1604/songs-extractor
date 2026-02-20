@@ -150,8 +150,4 @@ Edit `anghami/config/config.js`:
 2. **Songs data**
    Ensure `data/output/songs.json` exists and contains playlists/liked songs. Scrape from Anghami first if needed.
 
----
 
-## License
-
-MIT
