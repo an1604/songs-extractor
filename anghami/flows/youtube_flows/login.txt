@@ -1,0 +1,9 @@
+
+- Login
+	1. go to https://www.youtube.com/
+	2. locate the sign in btn and press it 
+	<yt-touch-feedback-shape aria-hidden="true" class="yt-spec-touch-feedback-shape yt-spec-touch-feedback-shape--touch-response"><div class="yt-spec-touch-feedback-shape__stroke"></div><div class="yt-spec-touch-feedback-shape__fill"></div></yt-touch-feedback-shape>
+	3. wait for the following element to appear on the screen
+	<button id="avatar-btn" aria-haspopup="true" class="style-scope ytd-topbar-menu-button-renderer" aria-label="Account menu">
+    <yt-img-shadow height="32" width="32" class="style-scope ytd-topbar-menu-button-renderer no-transition" loaded="" style="background-color: transparent;"><!--css-build:shady--><!--css_build_scope:yt-img-shadow--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_img_shadow.yt.img.shadow.css.js--><img id="img" draggable="false" class="style-scope yt-img-shadow" alt="Avatar image" height="32" width="32" src="https://yt3.ggpht.com/yti/ANjgQV-fQeum3yL1S4S73Dxz_myqGR6iKVCtagb4tES15e4=s88-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
+  </button>

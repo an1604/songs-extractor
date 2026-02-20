@@ -1,0 +1,7 @@
+
+- Add song to likes 
+	1. run "search a song flow" 
+	2. run "Get song container"
+	3. run "get a song's page"
+	4. locate the like btn and press it
+	<yt-touch-feedback-shape aria-hidden="true" class="yt-spec-touch-feedback-shape yt-spec-touch-feedback-shape--touch-response"><div class="yt-spec-touch-feedback-shape__stroke"></div><div class="yt-spec-touch-feedback-shape__fill"></div></yt-touch-feedback-shape>

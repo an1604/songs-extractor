@@ -1,0 +1,10 @@
+
+- Scrape songs from playlistst
+	1. to make sure that it loaded, look for the following:
+		a. URL like https://play.anghami.com/playlist/8515647
+		b. this Play btn <button _ngcontent-anghami-web-v2-c181="" class="anghami-default-btn-new primary texted"> Play </button>
+	2. 	locate the container of all songs (selector: #scroll_window > view-parent > normal-view > div > div.view-content, xpath: /html/body/anghami-root/anghami-base/div[1]/div/div/view-parent/normal-view/div/div[_])
+	3. collect all such songs into SongCards
+	4. store it into the JSON storage in a new section.
+	
+	

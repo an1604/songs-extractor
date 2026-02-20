@@ -1,0 +1,8 @@
+
+- Navigate to the home page:
+	1. once the login flow done, locate the "Start playing" button and press it.
+		option 1: <a href="https://www.anghami.com/home" class="hamburger_get_app__Nktzh">Start Playing</a>
+		option 2: <button type="button" class="styles_button__tqz7W" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">Start Playing</button>
+	2. it will launch a new tab including the following path: "https://play.anghami.com/home?_branch_match_id=1378389409698293030&utm_source=web&utm_medium=landing_page&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXzy9IzdNLzEvPSMzN1EvOz9V3LM4PCfUszjINT7KvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQB5O6KSPgAAAA%3D%3D"
+		Note that this is just a template, the URL that will load in runtime may be a little bit different.
+	3. this new tab contains the home page 

@@ -1,0 +1,4 @@
+
+- Add all songs to likes 
+	1. load all the liked songs from JSON output
+	2. foreach song, run "Add song to likes" 

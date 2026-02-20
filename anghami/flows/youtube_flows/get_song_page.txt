@@ -1,0 +1,6 @@
+- get a song's page
+	1. run "search a song flow" 
+	2. run "Get song container"
+	3. select the 1st song's option, and click it (Selector: #contents > ytd-video-renderer:nth-child(1), Xpath: //*[@id="contents"]/ytd-video-renderer[1])
+	4. validation: the following header with the song's name will appear (Selector: #title > h1, xpath: /html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[4]/div[1]/div/div[2]/ytd-watch-metadata/div/div[1]/h1)
+	pls check if the song's name included in the content of this element 

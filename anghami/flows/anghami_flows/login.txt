@@ -1,0 +1,17 @@
+Flows: 
+
+- Login: 
+	1. Go to "https://www.anghami.com/"
+	2. Locate the following div: 
+	<div class="hamburger_banner__nw_kj"><button class="hamburger_hamburger__zu_sm hamburger_hamburger_collapse__zLOrN " type="button" aria-label="Menu"><span class="hamburger_hamburger_box__6iQTr"><span class="hamburger_hamburger_inner__BiotY "></span></span></button><nav class=" flexbox"><a href="https://www.anghami.com/help">Help</a><a href="https://www.anghami.com/plus">Anghami Plus</a><span class="hamburger_sep__voAvP">|</span><a href="https://www.anghami.com/home" class="hamburger_get_app__Nktzh">Start Playing</a><a class="hamburger_login__YVSPA" id="header_login_button">Login</a></nav></div>
+	3. from this div, get the Login locator, click it:
+	<a class="hamburger_login__YVSPA" id="header_login_button">Login</a>
+	4. then, waits for the Login popup t oappear: 
+	<div id="login_popup" class="styles_LoginPopup__XoY2r false animate-fadeIn"><img class="styles_logo__JIP3L" alt="Anghami" src="https://cdnweb.anghami.com/web/assets/img/new-anghami-logos/header-logo-fullblack.png"><div class="styles_loginwithapp__xmMKm"><div class="styles_LoginWithApp___wtcw"><div id="" class="styles_GenericButton__2Ket7 styles_LoginWithApp-btn__QfiPw"><div class="styles_GenericButton-icon__5jq2A"><img src="https://cdnweb.anghami.com/_next/static/images/anghami-logo-white-notext.svg" alt="anghami logo"></div>Login with the Anghami app</div></div><div class="styles_divider__pGtPL"></div><p class="styles_subtitle__HpwIT">Or</p></div><div class="styles_GoogleLogin__ZnXso" id="google-root"><div id="" class="styles_GenericButton__2Ket7 styles_GoogleLogin-btn__3RevF false"><div class="styles_GenericButton-icon__5jq2A"><img src="https://cdnweb.anghami.com/web/google.svg" alt="google logo"></div>Continue with Google</div></div><div class="styles_FacebookLogin__eod2p" id="fb-root"><div id="" class="styles_GenericButton__2Ket7 styles_FacebookLogin-btn__xUQ5g"><div class="styles_GenericButton-icon__5jq2A"><img src="https://cdnweb.anghami.com/web/facebook.svg" alt="facebook logo"></div>Continue with Facebook</div></div><p id="popup_other_login_options" class="styles_other_login_link__4NVZ0">Other login options</p><div class="styles_divider__pGtPL"></div><div class="styles_QRLogin__D2v5M"><div class="styles_QRLogin-img__BY_Ex"><img src="https://cdnweb.anghami.com/web/assets/icons/all/QRCode.svg" alt="qrcode"></div><div class="styles_QRLogin-txt__d68_9"><p>Already have an</p><p>account on your phone?</p></div><div class="styles_QRLogin-btn__MHRfa">Scan QR code</div></div><div class="styles_divider__pGtPL"></div><p class="styles_recaptcha-notice__qvdEW">This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noreferrer" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noreferrer" href="https://policies.google.com/terms">Terms of Service</a> apply.</p></div>
+	5. then, from login popup div, locate the following div:
+	<div class="styles_QRLogin__D2v5M"><div class="styles_QRLogin-img__BY_Ex"><img src="https://cdnweb.anghami.com/web/assets/icons/all/QRCode.svg" alt="qrcode"></div><div class="styles_QRLogin-txt__d68_9"><p>Already have an</p><p>account on your phone?</p></div><div class="styles_QRLogin-btn__MHRfa">Scan QR code</div></div>
+	6. once it located, get the scan QR div from there and press it 
+	<div class="styles_QRLogin-btn__MHRfa">Scan QR code</div>
+	7. then, wait for the logout btn that will be appear once the login done 
+	<a class="hamburger_login__YVSPA">Logout</a>
+	

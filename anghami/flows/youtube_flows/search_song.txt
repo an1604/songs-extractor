@@ -1,0 +1,13 @@
+- search a song 
+	1. run "login"
+	2. locate search bar and the submit btn <div class="ytSearchboxComponentInputContainer"><div class="ytSearchboxComponentInputBox"><form action="/results" class="ytSearchboxComponentSearchForm"><input class="ytSearchboxComponentInput yt-searchbox-input title" name="search_query" aria-controls="i0" aria-expanded="true" type="text" autocomplete="off" autocorrect="off" spellcheck="false" aria-autocomplete="list" role="combobox" placeholder="Search" aria-activedescendant="searchbox-suggestion:8"></form></div><button aria-label="Search" class="ytSearchboxComponentSearchButton" title="Search"><span class="ytIconWrapperHost"><span class="yt-icon-shape ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M11 2a9 9 0 105.641 16.01.966.966 0 00.152.197l3.5 3.5a1 1 0 101.414-1.414l-3.5-3.5a1 1 0 00-.197-.153A8.96 8.96 0 0020 11a9 9 0 00-9-9Zm0 2a7 7 0 110 14 7 7 0 010-14Z"></path></svg></div></span></span></button></div>
+	3. hit the search
+	4. Validation - occurrence of the follwoing element on the screen
+	<yt-chip-cloud-chip-renderer class="style-scope yt-chip-cloud-renderer iron-selected" chip-style="STYLE_HOME_FILTER" selected=""><!--css-build:shady--><!--css_build_scope:yt-chip-cloud-chip-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.renderers.sections.yt_chip_cloud_chip_renderer.yt.chip.cloud.chip.renderer.css.js--><div id="chip-shape-container" class="style-scope yt-chip-cloud-chip-renderer">
+    <chip-shape class="ytChipShapeHost"><button class="ytChipShapeButtonReset" role="tab" aria-selected="true"><div class="ytChipShapeChip ytChipShapeActive ytChipShapeOnlyTextPadding"><div class="ytChipShapeTextContent">All</div><yt-touch-feedback-shape aria-hidden="true" class="yt-spec-touch-feedback-shape yt-spec-touch-feedback-shape--touch-response"><div class="yt-spec-touch-feedback-shape__stroke" style="border-radius: 8px;"></div><div class="yt-spec-touch-feedback-shape__fill" style="border-radius: 8px;"></div></yt-touch-feedback-shape></div></button></chip-shape>
+</div>
+</yt-chip-cloud-chip-renderer>
+
+owing div (selector: #contents, xpath: /html/body/ytd-app/div[1]/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer/div[3])
+
+
